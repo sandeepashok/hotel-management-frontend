@@ -1,0 +1,66 @@
+:root {
+    --primary-color: #111111;
+    --secondary-color: whitesmoke;
+    --bg: #000000;
+    --btn: #df070770;
+    --btn-hvr: #a32a2abe;
+  }
+
+.room__main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+    border: 1px solid var(--primary-color);
+    margin: 1em;
+    max-width: 40em;
+    max-height: 8em;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.room__image {
+    padding: 0 1em 0 0;
+}
+
+..room__data {
+    margin-right: 1rem;
+}
+
+.room__data > div {
+    padding: 0.3em;
+}
+
+.room__features {
+    display: flex;
+    flex-direction: column;
+}
+
+.room__availability {
+    border: 1px solid var(--primary-color);
+    padding: 4px;
+    border-radius: 5px;
+    background-color:var(--secondary-color);
+    margin-right: 1rem;
+}
+
+.room__features > span{
+    padding: 0.3em;
+}
+
+.room__price {
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: var(--btn);
+}
+
+.room__price:hover {
+    background-color: var(--btn-hvr);
+    cursor: pointer;
+}
+
+.room__featureButton {
+    color: var(--btn);
+    background-color: var(--btn-hvr);
+}
